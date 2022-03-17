@@ -4,7 +4,12 @@ export function Navbar() {
     <NavbarStyled>
       <h1>Sahara Rai</h1>
       <div className="menu">
-        <p>My CV</p>
+        <p>
+          <a href="/pdf/CV_SRai_2022_.pdf" target="_blank">
+            My CV
+          </a>
+        </p>
+
         <p>
           <a href="mailto:sxrai294@gmail.com">Contact me</a>
         </p>
