@@ -7,6 +7,7 @@ export const AboutmeStyled = styled.div`
   padding: 100px 0;
   /* color: #b6e2f0; */
   color: black;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 
   .header {
     font-size: 32px;

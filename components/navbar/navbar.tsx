@@ -14,7 +14,7 @@ export function Navbar() {
           </a>
         </p>
 
-        <p>My Projects</p>
+        {/* <p>My Projects</p> */}
 
         <p>
           <a href="mailto:sxrai294@gmail.com">Contact me</a>
