@@ -12,4 +12,4 @@ This is my personal website app which can be viewed at https://sahara-rai.netlif
 
 # Decisions
 
-As this is a very simple project, it would not massively benefit from using tech tools such as typescripts, next.js and styled components which I have used for my School of Code 4 week project. However, I decided use these tech tools to consolidate my understanding of these tech tools and the file structures, to learn setting up a new project with these tools myself and deploy it.
+As this is a very simple project, it would not massively benefit from using tech tools such as typescripts, next.js and styled components which I have used for my School of Code 4 week project. However, I decided use these tech tools to consolidate my understanding of these tech tools, and set up a project with these tools myself and deploy it.
