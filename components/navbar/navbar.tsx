@@ -9,7 +9,7 @@ export function Navbar() {
       </div>
       <div className="menu">
         <p>
-          <a href="/pdf/CV_SRai_2022_.pdf" target="_blank">
+          <a href="/pdf/CV_SRai.pdf" target="_blank">
             My CV
           </a>
         </p>
