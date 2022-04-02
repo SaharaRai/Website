@@ -6,13 +6,14 @@ export const IconsStyled = styled.div`
   justify-content: center;
 
   img {
-    width: 120px;
+    width: 90px;
     margin-right: 50px;
+    margin: 0px;
   }
 
   .icons {
     /* width: 70px; */
-    font-size: 8rem;
+    font-size: 7rem;
     color: #247699;
   }
 `;

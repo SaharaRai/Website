@@ -7,4 +7,6 @@ export const HeadingStyled = styled.h1`
   margin-top: 100px;
   margin-left: 80px;
   font-size: 45px;
+  padding-top: 40px;
+  padding-top: 40px;
 `;

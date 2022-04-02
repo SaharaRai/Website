@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const AboutmeStyled = styled.div`
   margin: auto;
+
+  padding: 0px;
+
   /* width: 90%;
   font-size: 20px;
   padding: 100px 0; */
@@ -11,17 +14,20 @@ export const AboutmeStyled = styled.div`
   .header {
     font-size: 25px;
     font-weight: bold;
+    margin: 0px;
+    margin-top: 20px;
   }
 
   .image {
-    z-index: -1;
-    height: 700px;
-    overflow: hidden;
-    position: relative;
+    /* z-index: -1; */
+    /* max-height: 700px; */
   }
 
-  .text {
-    position: relative;
+  p {
+    font-size: 23px;
+  }
+  .text-container {
+    margin-left: 30px;
   }
   img {
     position: relative;

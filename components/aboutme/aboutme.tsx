@@ -7,8 +7,8 @@ function Aboutme() {
         <img src="/umbrella.jpg" alt="space" />
       </div>
 
-      <div className="text">
-        <p className="header">About me:</p>
+      <div className="text-container">
+        <p className="header">About me</p>
         <p>
           My previous background has been in biology, which has involved
           carrying out research studies and teaching science at secondary
