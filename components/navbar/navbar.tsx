@@ -8,6 +8,7 @@ export function Navbar() {
         <Name />
       </div>
       <div className="menu">
+        <p className="projects">Projects</p>
         <p>
           <a href="/pdf/CV_SRai.pdf" target="_blank">
             My CV
