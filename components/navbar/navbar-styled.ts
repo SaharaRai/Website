@@ -9,21 +9,20 @@ export const NavbarStyled = styled.div`
   /* background-color: #7ed5f0; */
   background-color: #003c77;
   margin: auto;
+  padding-top: 20px;
   .menu {
     display: flex;
     flex-direction: row;
-
-    border-radius: 5px;
-    margin-right: 25px;
+    margin-right: 30px;
   }
 
-  p,
-  a {
+  p {
     font-size: 20px;
     /* background-color: #247699; */
-    padding: 10px;
+    /* padding: 10px; */
     /* border-radius: 10px; */
     height: fit-content;
+    margin-left: 30px;
   }
 
   a:hover {

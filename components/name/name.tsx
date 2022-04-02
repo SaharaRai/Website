@@ -3,7 +3,7 @@ import { NameStyled } from "./name-styled";
 function Name() {
   return (
     <NameStyled>
-      <h1>Sahara Rai</h1>
+      <p className="name">Sahara Rai</p>
       <div className="image-container">
         <a
           href="https://www.linkedin.com/in/sahararai/"
