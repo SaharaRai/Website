@@ -11,7 +11,9 @@ const Home: NextPage = () => {
       <Navbar />
       <Aboutme />
       <Icons />
-      <Projects />
+      <div id="projectid">
+        <Projects />
+      </div>
     </div>
   );
 };

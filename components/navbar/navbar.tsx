@@ -1,5 +1,7 @@
 import Name from "../name/name";
 import { NavbarStyled } from "./navbar-styled";
+import Link from "next/link";
+import Projects from "../projects/projects";
 export function Navbar() {
   return (
     <NavbarStyled>
@@ -8,9 +10,14 @@ export function Navbar() {
         <Name />
       </div>
       <div className="menu">
-        {/* <p className="projects">Projects</p> */}
+        <p className="projects">
+          <Link href="#projectid">
+            <a>Projects</a>
+          </Link>
+        </p>
+
         <p>
-          <a href="/pdf/CV_SRai.pdf" target="_blank">
+          <a href="/pdf/CV_SRai2022.pdf" target="_blank">
             My CV
           </a>
         </p>
