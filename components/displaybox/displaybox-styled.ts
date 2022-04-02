@@ -44,4 +44,9 @@ export const DisplayboxStyled = styled.div`
     margin-right: auto;
     width: 50%;
   }
+
+  .buttondiv {
+    display: flex;
+    justify-content: space-around;
+  }
 `;

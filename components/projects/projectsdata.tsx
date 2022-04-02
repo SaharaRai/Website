@@ -12,7 +12,7 @@ export const projectData = [
     youtube: "",
     github:
       "https://github.com/SchoolOfCode/final-project-front-end-if-it-ain-t-broke-don-t-six-it",
-    website: "",
+    website: "https://odd-job.netlify.app/",
   },
   // {
   //   title: "My personal website",
@@ -38,6 +38,7 @@ export const projectData = [
     techstack: "",
     altTechstack: "",
     youtube: "",
+    github: "https://github.com/SaharaRai/HangmanGame",
     website: "https://hangmangame-by-sahara.netlify.app/",
   },
 ];

@@ -17,6 +17,8 @@ function Projects() {
             description={project.description}
             image={project.image}
             altimage={project.altimage}
+            gitrepo={project.github}
+            website={project.website}
           />
         );
       })}

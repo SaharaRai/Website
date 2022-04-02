@@ -1,3 +1,4 @@
+import ShortButton from "../button/button";
 import { DisplayboxStyled } from "./displaybox-styled";
 
 type Props = {
@@ -6,14 +7,34 @@ type Props = {
   description: string | undefined;
   image: string;
   altimage: string | undefined;
+  gitrepo: string | undefined;
+  website: string | undefined;
 };
-function Displaybox({ title, about, description, image, altimage }: Props) {
+function Displaybox({
+  title,
+  about,
+  description,
+  image,
+  altimage,
+  gitrepo,
+  website,
+}: Props) {
   return (
     <DisplayboxStyled>
       <div className="leftside">
         <h1>{title}</h1>
         <p> About: {about}</p>
         <p>{description}</p>
+        <div className="buttondiv">
+          <a href={gitrepo}>
+            {" "}
+            <ShortButton text="View Project" />
+          </a>
+          <a href={website}>
+            {" "}
+            <ShortButton text="Visit App" />
+          </a>
+        </div>
       </div>
       <div className="rightside">
         <img src={image} alt={altimage} />
