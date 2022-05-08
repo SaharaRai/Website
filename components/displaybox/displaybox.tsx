@@ -22,8 +22,8 @@ function Displaybox({
   return (
     <DisplayboxStyled>
       <div className="leftside">
-        <h1>{title}</h1>
-        <p> About: {about}</p>
+        <h1 className="title">{title}</h1>
+        <p className="about"> About: {about}</p>
         <p>{description}</p>
         <div className="buttondiv">
           <a href={gitrepo}>
@@ -31,8 +31,7 @@ function Displaybox({
             <ShortButton text="View Project" />
           </a>
           <a href={website}>
-            {" "}
-            <ShortButton text="Visit App" />
+            {website !== "" && <ShortButton text="Visit App" />}
           </a>
         </div>
       </div>

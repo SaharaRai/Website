@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const HeadingStyled = styled.h1`
-  color: black;
+  color: #247699;
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: #7ed5f0;
   margin-top: 100px;
   margin-left: 80px;
   font-size: 45px;

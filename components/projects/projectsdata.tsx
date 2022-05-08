@@ -26,6 +26,19 @@ export const projectData = [
   //   website: "https://sahara-rai.netlify.app/",
   // },
   {
+    title: "Social Media",
+    about:
+      "I am currently working on a project, which is a social media app. I am developing this using React.js and stylying using Tailwind CSS.",
+    description: ` `,
+    image: "/social_media.png",
+    altimage: "social media",
+    techstack: "",
+    altTechstack: "",
+    youtube: "",
+    github: "https://github.com/SaharaRai/social_media",
+    website: "",
+  },
+  {
     title: "Hangman",
     about:
       "This hangman game was my first major personal project. I worked on this duing the christmas week break of my programming bootcamp.",

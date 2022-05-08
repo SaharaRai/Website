@@ -9,7 +9,8 @@ export const AboutmeStyled = styled.div`
   font-size: 20px;
   padding: 100px 0; */
 
-  color: black;
+  /* color: black; */
+  color: #f3f3f3;
 
   .header {
     font-size: 25px;
@@ -23,9 +24,19 @@ export const AboutmeStyled = styled.div`
     /* max-height: 700px; */
   }
 
-  p {
-    font-size: 23px;
+  .aboutme {
+    margin: 220px 80px 80px 80px;
+    /* display: flex; */
+    /* justify-content: space-between; */
   }
+  .abouttext {
+    font-size: 50px;
+  }
+
+  .software {
+    font-size: 50px;
+  }
+
   .text-container {
     margin-left: 30px;
   }

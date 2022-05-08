@@ -7,7 +7,8 @@ export const NavbarStyled = styled.div`
   width: 100%;
   position: fixed;
   /* background-color: #7ed5f0; */
-  background-color: #003c77;
+  /* background-color: #003c77; */
+  background-color: #151515;
   margin: auto;
   padding-top: 20px;
   .menu {

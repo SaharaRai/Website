@@ -5,8 +5,8 @@ export const DisplayboxStyled = styled.div`
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 5px;
-  background-color: white;
-  color: black;
+  background-color: #202022;
+  color: #f3f3f3;
   padding: 15px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -23,11 +23,16 @@ export const DisplayboxStyled = styled.div`
     flex: 1;
     padding-left: 50px;
     padding-right: 50px;
+    /* max-height: 90%; */
   }
 
   .rightside {
     display: flex;
     justify-content: center;
+  }
+
+  .title {
+    color: #247699;
   }
 
   img {
@@ -36,13 +41,13 @@ export const DisplayboxStyled = styled.div`
     margin-right: auto;
     width: 50%; */
 
-    max-width: 80%;
-    /* max-height: 80%; */
-    height: auto;
+    max-width: 70%;
+    max-height: 70vh;
+    /* height: auto; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
 
   .buttondiv {
