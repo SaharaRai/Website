@@ -10,12 +10,10 @@ function Aboutme() {
       <div className="text-container">
         <p className="header">About me</p>
         <div className="aboutme">
-          {/* <p className="abouttext">I am a full stack &nbsp;</p>
-
-          <p className="software">software developer </p> */}
           <p className="abouttext">
-            I am a full stack software developer, with experience in
-            technologies such as React, Express and TypeScript.
+            I am a full stack{" "}
+            <span className="colouredtext">software developer</span>, with
+            experience in technologies such as React, Express and TypeScript.
           </p>
         </div>
       </div>

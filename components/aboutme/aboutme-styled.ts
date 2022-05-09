@@ -33,8 +33,8 @@ export const AboutmeStyled = styled.div`
     font-size: 50px;
   }
 
-  .software {
-    font-size: 50px;
+  .colouredtext {
+    color: #2a769a;
   }
 
   .text-container {
