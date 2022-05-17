@@ -16,16 +16,14 @@ export const NameStyled = styled.div`
 
   .name {
     font-size: 45px;
+
     margin: 0px 0px 0px 0px;
   }
 
-  img {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 10px;
-  }
-
   .image-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
   }
 `;

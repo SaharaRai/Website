@@ -17,7 +17,7 @@ export function Navbar() {
         </p>
 
         <p>
-          <a href="/pdf/CV_SRai2022_4.pdf" target="_blank">
+          <a href="/pdf/CV_SRai2022_5.pdf" target="_blank">
             My CV
           </a>
         </p>

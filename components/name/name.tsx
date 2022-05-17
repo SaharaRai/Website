@@ -1,17 +1,29 @@
+import NameIcon from "../name_icon/name_icon";
 import { NameStyled } from "./name-styled";
 
 function Name() {
   return (
     <NameStyled>
-      <p className="name">Sahara Rai</p>
+      <div>
+        <p className="name">Sahara Rai</p>
+      </div>
+
       <div className="image-container">
-        <a
-          href="https://www.linkedin.com/in/sahararai/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/linkedin-icon.png" alt="linkedin icon" />{" "}
-        </a>
+        <div>
+          <NameIcon
+            href="https://www.linkedin.com/in/sahararai/"
+            src="/linkedin-icon.png"
+            alt="linkedin icon"
+          />
+        </div>
+
+        <div>
+          <NameIcon
+            href="https://github.com/SaharaRai"
+            src="/github_logo.png"
+            alt="github"
+          />
+        </div>
       </div>
     </NameStyled>
   );

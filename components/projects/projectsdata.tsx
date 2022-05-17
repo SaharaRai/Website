@@ -28,7 +28,7 @@ export const projectData = [
   {
     title: "Social Media",
     about:
-      "I am currently working on a project, which is a social media app. I am developing this using React.js and stylying using Tailwind CSS.",
+      "I am currently working on a project, which is a social media app. I am developing this using React.js, Firebase and stylying using Tailwind CSS.",
     description: ` `,
     image: "/social_media.png",
     altimage: "social media",
